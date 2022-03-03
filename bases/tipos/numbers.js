@@ -7,3 +7,4 @@
     else
         console.log('no es mayor');
 })();
+//# sourceMappingURL=numbers.js.map
