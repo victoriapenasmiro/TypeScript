@@ -6,5 +6,6 @@
     const numbers: number[] = [1, 2, 3, 4, 8, 9, 10];
     const villians = ['Duende Verde', 'Linterna Roja', 'Malo Malo'];
 
-    villians.forEach(v => console.log(v.toLocaleUpperCase));
+    villians.forEach(v => console.log(v.toUpperCase()));
+    numbers.forEach(v => console.log(v));
 })()

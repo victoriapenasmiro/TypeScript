@@ -27,6 +27,6 @@ const unirheroes = ( ...personas:string[] ): string => {
 const noHaceNada = ( numero: number, texto: string, booleano: boolean, arreglo:any[] ) => {}
 
 // Crear el tipo de funcion que acepte la funcion "noHaceNada"
-// let noHaceNadaTampoco = Function; //es correcto tmb
-let noHaceNadaTampoco = ( n: number, t: string, b: boolean, a:any[] ) => {}; //void no lo reconoce
+// let noHaceNadaTampoco: Function; //es correcto tmb
+let noHaceNadaTampoco: ( n: number, t: string, b: boolean, a:any[] ) => void; //void no lo reconoce
 noHaceNadaTampoco = noHaceNada

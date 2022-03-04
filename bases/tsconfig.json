@@ -101,6 +101,8 @@
   "exclude": [ /*Para excluida de la compilaión n archivo*/
     "ExcluidaParaCompilar",
   ],
-  //"include": [] /*podriamos indicar si se quieren compilar algunos archivos que estén excluidos*/
+  "include": [
+    "classes",
+  ] /*podriamos indicar si se quieren compilar algunos archivos que estén excluidos*/
   
 }
