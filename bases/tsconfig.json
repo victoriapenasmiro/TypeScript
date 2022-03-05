@@ -102,7 +102,7 @@
     "ExcluidaParaCompilar",
   ],
   "include": [
-    "classes",
+    "namespace",
   ] /*podriamos indicar si se quieren compilar algunos archivos que estén excluidos*/
   
 }
