@@ -10,7 +10,7 @@
     console.log('Este mensaje no se va a mostrar, ya que saltó una excepción al ejecutar abc()');
 
     //al indicar que el retorno puede ser never o number,
-    //indicamos que si se cumple la condición retornará necer, sino retornará un numero
+    //indicamos que si se cumple la condición retornará never, sino retornará un numero
     const abc2 = (message: string): (never | number) => {
         if (false) throw new Error(message);
 
